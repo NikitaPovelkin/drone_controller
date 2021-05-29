@@ -1,0 +1,8 @@
+prefix=/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel
+
+Name: keyboard_input
+Description: Description of keyboard_input
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime

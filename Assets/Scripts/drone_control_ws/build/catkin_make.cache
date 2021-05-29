@@ -1,0 +1,2 @@
+drone_control:jpeg_streamer:keyboard_input_pkg:loam_velodyne:msgs/drone_input_msgs
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/install -G Unix Makefiles
