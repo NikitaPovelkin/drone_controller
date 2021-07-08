@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src
+CMAKE_SOURCE_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build
+CMAKE_BINARY_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build: sensor_
 .PHONY : jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 
 jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

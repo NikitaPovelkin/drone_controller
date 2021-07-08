@@ -64,7 +64,7 @@ namespace Unity_disaster_sim {
 
         protected virtual void HandleControls(Quaternion rotation_quat)
         {
-            rigid_body.MoveRotation(rotation_quat);
+            rigid_body.MoveRotation(rotation_quat.normalized);
         }
     }
 }

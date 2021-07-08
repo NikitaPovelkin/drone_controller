@@ -8,7 +8,7 @@ namespace Unity_disaster_sim {
     {
         #region Variables
         [Header("Engine Properties")]
-        [SerializeField] private float maxPower = 2f;
+        [SerializeField] private float maxPower = 1f;
 
         [Header("Propeller Properties")]
         [SerializeField] private Transform propeller;

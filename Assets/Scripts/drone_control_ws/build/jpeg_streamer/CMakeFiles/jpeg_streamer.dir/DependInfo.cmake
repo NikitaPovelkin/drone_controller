@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/src/mongoose.c" "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/src/mongoose.c" "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -22,12 +22,12 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/src/jpeg_streamer.cpp" "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/src/jpeg_streamer.cpp" "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -44,7 +44,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

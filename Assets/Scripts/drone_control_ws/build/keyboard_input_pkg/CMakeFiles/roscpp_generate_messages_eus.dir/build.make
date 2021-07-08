@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src
+CMAKE_SOURCE_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build
+CMAKE_BINARY_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_gen
 .PHONY : keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/keyboard_input_pkg /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/keyboard_input_pkg /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : keyboard_input_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

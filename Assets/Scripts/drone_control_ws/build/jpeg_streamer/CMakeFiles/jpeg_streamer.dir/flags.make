@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -O3 -DNDEBUG  
+C_FLAGS =  
 
 C_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"jpeg_streamer\"
 
-C_INCLUDES = -I/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+C_INCLUDES = -I/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
-CXX_FLAGS = -O3 -DNDEBUG  
+CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"jpeg_streamer\"
 
-CXX_INCLUDES = -I/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

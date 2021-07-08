@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 import rospy
 import keyboard
+import math
 from geometry_msgs.msg import Twist
 from drone_input_msgs.msg import DroneControlInput
-from simple_pid import PID
 
 class DroneControl:
     def __init__(self):
@@ -14,11 +14,9 @@ class DroneControl:
         self.finalYaw = 0
         self.yaw = 0
         self.deltaTime = 0
-        self.filter = 0.5
-        self.minMaxPitch = 30
-        self.minMaxRoll = 30
-        self.yawPower = 2
-
+        self.filter = 0.4
+        self.minMaxPitch = self.minMaxRoll = 20
+        
         self.twist_publisher = rospy.Publisher("/twist", Twist, queue_size=10)
         self.keyboard_input_subscriber = rospy.Subscriber("/keyboard_input", DroneControlInput, self.drone_control_callback)
         
@@ -28,11 +26,18 @@ class DroneControl:
 
         pitch = (message.w + message.s) * self.minMaxPitch
         roll = (message.a + message.d) * self.minMaxRoll
-        self.yaw += (message.j + message.l) * self.yawPower
+        
+        self.yaw += (message.j + message.l) * 0.3
+
+
+        if self.yaw >= 360:
+            self.yaw += -360
+        elif self.yaw <= -360:
+            self.yaw += 360
         
         self.finalPitch = self.interpolate(self.finalPitch, pitch, self.filter)
         self.finalRoll = self.interpolate(self.finalRoll, roll, self.filter)
-        self.finalYaw = self.interpolate(self.finalYaw, self.yaw, 0.8)
+        self.finalYaw = self.interpolate(self.finalYaw, self.yaw, self.filter)
     
         twist_msg.angular.x = self.finalRoll
         twist_msg.angular.y = self.finalPitch

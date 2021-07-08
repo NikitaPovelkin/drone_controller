@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer"
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer.pdb"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer.pdb"
   "CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
   "CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
 )

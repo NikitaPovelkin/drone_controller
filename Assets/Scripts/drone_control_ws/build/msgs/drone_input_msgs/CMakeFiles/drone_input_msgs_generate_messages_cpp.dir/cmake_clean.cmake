@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/include/drone_input_msgs/DroneControlInput.h"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/include/drone_input_msgs/DroneControlInput.h"
   "CMakeFiles/drone_input_msgs_generate_messages_cpp"
 )
 

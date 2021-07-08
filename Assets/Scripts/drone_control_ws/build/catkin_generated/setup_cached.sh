@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build'
-export PYTHONPATH="/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build'
+export PYTHONPATH="/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src:$ROS_PACKAGE_PATH"

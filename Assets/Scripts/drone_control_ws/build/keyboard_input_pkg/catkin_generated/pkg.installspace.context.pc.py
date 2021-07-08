@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "keyboard_input"
-PROJECT_SPACE_DIR = "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/install"
+PROJECT_SPACE_DIR = "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/install"
 PROJECT_VERSION = "0.0.0"

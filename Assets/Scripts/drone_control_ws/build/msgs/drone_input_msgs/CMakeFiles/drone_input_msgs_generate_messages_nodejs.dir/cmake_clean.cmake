@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/share/gennodejs/ros/drone_input_msgs/msg/DroneControlInput.js"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/share/gennodejs/ros/drone_input_msgs/msg/DroneControlInput.js"
   "CMakeFiles/drone_input_msgs_generate_messages_nodejs"
 )
 

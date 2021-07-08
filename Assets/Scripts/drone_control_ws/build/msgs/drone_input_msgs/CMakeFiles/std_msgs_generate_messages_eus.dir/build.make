@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src
+CMAKE_SOURCE_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build
+CMAKE_BINARY_DIR = /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build: std_m
 .PHONY : msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/msgs/drone_input_msgs /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/msgs/drone_input_msgs /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : msgs/drone_input_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

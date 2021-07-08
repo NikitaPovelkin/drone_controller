@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages/drone_input_msgs/msg/_DroneControlInput.py"
-  "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages/drone_input_msgs/msg/__init__.py"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages/drone_input_msgs/msg/_DroneControlInput.py"
+  "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/python3/dist-packages/drone_input_msgs/msg/__init__.py"
   "CMakeFiles/drone_input_msgs_generate_messages_py"
 )
 

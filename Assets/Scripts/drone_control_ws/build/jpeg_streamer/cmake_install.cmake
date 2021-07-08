@@ -1,8 +1,8 @@
-# Install script for directory: /home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer
+# Install script for directory: /home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamer.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamer.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jpeg_streamer/cmake" TYPE FILE FILES
-    "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamerConfig.cmake"
-    "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamerConfig-version.cmake"
+    "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamerConfig.cmake"
+    "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/build/jpeg_streamer/catkin_generated/installspace/jpeg_streamerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jpeg_streamer" TYPE FILE FILES "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/src/jpeg_streamer/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jpeg_streamer" TYPE FILE FILES "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/src/jpeg_streamer/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jpeg_streamer/jpeg_streamer"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jpeg_streamer" TYPE EXECUTABLE FILES "/home/nikita/Unity/lidar/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jpeg_streamer" TYPE EXECUTABLE FILES "/home/nikita/Bachelorarbeit/drone_controller/Assets/Scripts/drone_control_ws/devel/lib/jpeg_streamer/jpeg_streamer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jpeg_streamer/jpeg_streamer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/jpeg_streamer/jpeg_streamer")
     file(RPATH_CHANGE
