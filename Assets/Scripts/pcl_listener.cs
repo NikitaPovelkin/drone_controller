@@ -13,8 +13,8 @@ namespace RosSharp.RosBridgeClient
         public float maxDistance = 10.0f;
         private MessageTypes.Sensor.PointCloud2 pcl2_message;
         private int timer = 0;
-        private static int lidar_rotation_angle = 5;
-        private static float lidar_laser_count = 15f * 2;
+        private static int lidar_rotation_angle = 13;
+        private static float lidar_laser_count = 30;
         private static float diff_lidar_scan_angles = 360/lidar_rotation_angle;
         private static float lidar_scan_pos_count = diff_lidar_scan_angles * lidar_laser_count;
         private static uint point_byte_length = 16;
@@ -37,6 +37,7 @@ namespace RosSharp.RosBridgeClient
         private void InitializeMessage()
         {
             pcl2_fields = new MessageTypes.Sensor.PointField[4];
+            lidar_data_list = new ArrayList();
             pcl2_message = new MessageTypes.Sensor.PointCloud2
             {
                 header = new MessageTypes.Std.Header()
@@ -55,24 +56,25 @@ namespace RosSharp.RosBridgeClient
 
         private void UpdateMessage()
         {
-            if (timer == diff_lidar_scan_angles) {
+            if (timer < diff_lidar_scan_angles-1) {
+                pcl2_message.header.Update();
+                timer++;
+            } else {
                 pcl2_message.data = (byte[]) lidar_data_list.ToArray(typeof(byte));
+                Debug.Log(pcl2_message.data.Length);
                 Publish(pcl2_message);
                 InitializeMessage();
                 timer = 0;
-            } else {
-                pcl2_message.header.Update();
-                timer++;
             }
         }
 
         private void HandleLidar()
         {
             Vector3 rotation_vector = new Vector3(0.0f, 90.0f, 0.0f);
-            lidar_transform.Rotate(rotation_vector, 5);
+            lidar_transform.Rotate(rotation_vector, lidar_rotation_angle);
             RaycastHit hit;
             float intensity = 0;
-            for (float i = -lidar_laser_count; i < lidar_laser_count; ++i){
+            for (float i = -lidar_laser_count/2; i < lidar_laser_count/2; ++i){
                 Vector3 ray_dir = new Vector3(Mathf.Cos(i * Mathf.Deg2Rad),Mathf.Sin(i * Mathf.Deg2Rad),0);
                 if (Physics.Raycast(lidar_transform.position, lidar_transform.TransformDirection(ray_dir), out hit, maxDistance))
                 {

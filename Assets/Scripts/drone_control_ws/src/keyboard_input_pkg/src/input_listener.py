@@ -54,7 +54,7 @@ class InputListener:
 
 if __name__ == '__main__':
     rospy.init_node('InputListener')
-    rate = rospy.Rate(20)
+    rate = rospy.Rate(100)
     InputListener()
     rospy.spin()
     rate.sleep()
